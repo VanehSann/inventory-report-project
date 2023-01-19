@@ -24,7 +24,5 @@ class Inventory:
 
             if type == "simples":
                 return SimpleReport.generate(file)
-            elif type == "completo":
-                return CompleteReport.generate(file)
             else:
-                raise ValueError("invalid type")
+                return CompleteReport.generate(file)

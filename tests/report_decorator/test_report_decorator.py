@@ -1,5 +1,6 @@
 from inventory_report.reports.colored_report import ColoredReport
-from inventory_report.reports.complete_report import CompleteReport
+
+# from inventory_report.reports.complete_report import CompleteReport
 from inventory_report.reports.simple_report import SimpleReport
 
 
